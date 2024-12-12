@@ -45,7 +45,7 @@ Utilize um banco de dados PostgreSQL hospedado em [Railway.app](https://railway.
    -Inicie o servidor:
     npm start
 
-    # Instruções de Uso das Rotas
+  ## Instruções de Uso das Rotas
     
 -Rotas de Missões
 
@@ -82,5 +82,39 @@ Utilize um banco de dados PostgreSQL hospedado em [Railway.app](https://railway.
 -DELETE /missoes/1 HTTP/1.1
 
 -Authorization: Bearer <token>
+
+
+## Rotas de Autenticação
+
+# POST /usuarios/registro: Registra novos usuários com nome, e-mail e senha.
+
+-Exemplo de requisição:text
+
+-POST /usuarios/registro HTTP/1.1
+Content-Type: application/json
+
+{
+  "nome": "João",
+  "email": "joao@example.com",
+  "senha": "senhaSegura"
+}
+POST /usuarios/login: Permite login de usuários e retorna um token JWT.
+Exemplo de requisição:
+text
+POST /usuarios/login HTTP/1.1
+Content-Type: application/json
+
+
+## Validação de Dados
+-Todas as entradas devem ser validadas para garantir que estão completas e corretas. Mensagens de erro claras e informativas serão retornadas em caso de falhas.
+
+
+## Tecnologias Utilizadas
+
+-TypeScript
+-Express.js
+-PostgreSQL
+-JWT (JSON Web Tokens)
+
 
 
