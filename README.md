@@ -112,8 +112,11 @@ Content-Type: application/json
 ## Tecnologias Utilizadas
 
 -TypeScript
+
 -Express.js
+
 -PostgreSQL
+
 -JWT (JSON Web Tokens)
 
 
