@@ -1,5 +1,7 @@
 # Sistema de Cadastro de Explorações Espaciais
 
+# Este é um projeto Acadêmico feito em sala de aula e usado para avaliação semestral. Não esta completo mas gostaria muito de compartilhar!
+
 ## Objetivo
 
 Este projeto tem como objetivo criar um backend em TypeScript, estruturado no padrão Model-View-Controller (MVC), para gerenciar um sistema de cadastro de explorações espaciais. O sistema permite registrar novas missões, listar todas as missões cadastradas, excluir missões específicas e implementar um sistema de autenticação baseado em tokens Bearer.
